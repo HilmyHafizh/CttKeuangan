@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Financial Record</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <h1>Financial <span>Record</span></h1>
+    <p>Catat setiap pengeluaran dengan tenang</p>
+  </header>
+
+  <main class="container">
+
+    <!-- SUMMARY -->
+    <section class="summary">
+      <div class="card total">
+        <p>Total Pengeluaran</p>
+        <h2 id="total">Rp 0</h2>
+      </div>
+
+      <div class="card">
+        <p>Jumlah Catatan</p>
+        <h2 id="jumlahData">0</h2>
+      </div>
+
+      <div class="card">
+        <p>Rata-rata</p>
+        <h2 id="rata">Rp 0</h2>
+      </div>
+    </section>
+
+    <!-- FORM -->
+    <section class="form-box">
+      <h2>Catatan Baru</h2>
+
+      <div class="form-group">
+        <input id="nama" type="text" placeholder="Contoh: Makan siang">
+        <input id="jumlah" type="number" placeholder="Rp">
+        <button onclick="tambahData()">Tambah</button>
+      </div>
+    </section>
+
+    <!-- LIST -->
+    <section>
+      <h2>Riwayat</h2>
+      <div id="list" class="list"></div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

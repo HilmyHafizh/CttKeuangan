@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+}
+
+/* HEADER */
+.header {
+  background: linear-gradient(135deg, #065f46, #047857);
+  color: white;
+  padding: 40px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.header span {
+  color: #facc15;
+}
+
+.header p {
+  opacity: 0.8;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 800px;
+  margin: -30px auto 20px;
+  padding: 0 16px;
+}
+
+/* SUMMARY */
+.summary {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card.total {
+  background: #047857;
+  color: white;
+}
+
+/* FORM */
+.form-box {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 16px;
+  background: #047857;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #065f46;
+}
+
+/* LIST */
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.item-title {
+  font-weight: bold;
+}
+
+.item-actions button {
+  margin-left: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.item-actions .edit {
+  color: blue;
+}
+
+.item-actions .delete {
+  color: red;
+}
