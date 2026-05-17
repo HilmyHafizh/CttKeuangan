@@ -1,4 +1,4 @@
-# 💰 CttKeuangan
+# CttKeuangan
 
 Fullstack financial tracking app built with:
 
@@ -12,11 +12,6 @@ Fullstack financial tracking app built with:
 - Edit data
 - Delete data
 - Real-time update
-
-## Preview
-(Add screenshot nanti di sini)
-
-## How to Run
 
 ### Backend
 cd backend-keuangan
