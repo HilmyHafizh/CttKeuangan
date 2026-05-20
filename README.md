@@ -20,6 +20,3 @@ node server.js
 
 ### Frontend
 Open index.html
-
-## 📌 Status
-In Development
